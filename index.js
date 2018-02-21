@@ -20,8 +20,8 @@ function currentLine(line) {
   } else {
 
     for (var i = 0; i < line.length; i++) {
-      var string = 'The line is currently: '
-
+      var string = `The line is currently: `
+      string += `${i}. ${line[i]},`
     }
 
     return string
