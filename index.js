@@ -27,6 +27,7 @@ var string = `The line is currently: `
       string += `${i+1}. ${line[i]}`
 
     }
+  }
 
     return string
   }
