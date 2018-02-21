@@ -12,3 +12,8 @@ function nowServing(line) {
     return `Currently serving ${current}.`
   }
 }
+
+
+function currentLine(line) {
+  
+}
